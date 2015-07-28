@@ -72,7 +72,7 @@ event_band:
 ### Adding band information to listener to make it asynchronous
 Add parameter "band" with name of consumer to event listener tag to show which consumer it belongs to.
 ```xml
-<service id="acme.event_bundle.event.event_listener" class="Acme\EventBundle\Event">
+<service id="acme.event_bundle.event.event_listener" class="Acme\EventBundle\Event\EchoEventListener">
      <tag name="kernel.event_listener" event="event.echo" method="onEchoEvent" band="acme.echo.event"/>
 </service>
 ```
