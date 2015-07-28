@@ -52,7 +52,7 @@ class EchoEventListener
 ```
 And register listener in services.xml
 ```xml
-<service id="acme.event_bundle.event.event_listener" class="Acme\EventBundle\Event">
+<service id="acme.event_bundle.event.event_listener" class="Acme\EventBundle\Event\EchoEventListener">
      <tag name="kernel.event_listener" event="event.echo" method="onEchoEvent"/>
 </service>
 ```
