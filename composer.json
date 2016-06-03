@@ -30,7 +30,7 @@
         "che/console-signals": "dev-master",
         "event-band/amqplib-transport": "dev-master",
         "event-band/jms-serializer": "dev-master",
-        "jms/serializer-bundle": "0.12.*@dev",
+        "jms/serializer-bundle": "1.1.*@dev",
         "jms/aop-bundle": "1.*"
     },
     "suggest": {
